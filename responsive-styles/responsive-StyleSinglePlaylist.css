@@ -1,0 +1,50 @@
+@media screen and (max-width: 769px) {
+    html{
+        font-size: 15px;
+    }
+    #main-header{
+        padding: 1rem 0 0.3rem;
+    }
+    #logo{
+        width: 35vw;
+    }
+    #account{
+        height: 100%;
+        width: 60vw;
+    }
+    .favourites{
+        font-size: 1rem;
+    }
+    main{
+        width: 98vw;
+        height: auto;
+        margin-left: 0.5vw;
+        margin-right: 0.5vw;
+        display: block;
+        overflow: none;
+    }
+    aside{
+        width: 98vw;
+        height: auto;
+        margin-left: 0.5vw;
+        margin-right: 0.5vw;
+        margin-bottom: 7vh;
+        display: block;
+        overflow: none;
+    }
+    #similar-artist{
+        height: auto;
+    }
+    #recently-played{
+        height: auto;
+    }
+    /* .each-release{
+        width: 35rem;
+        height: 8rem;
+    } */
+    .queue-content{
+        height: auto;
+        overflow: none;
+    }
+
+}
